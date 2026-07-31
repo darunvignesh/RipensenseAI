@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple rounded "fruit" circle with a leaf, centered in the safe zone -->
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="M54,68 m-24,0 a24,24 0 1,0 48,0 a24,24 0 1,0 -48,0" />
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M54,44 C50,32 62,28 68,32 C64,40 58,44 54,44 Z" />
+</vector>

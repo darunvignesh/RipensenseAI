@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RipenSense AI</string>
+    <string name="reload">Reload</string>
+    <string name="set_server_address">Set server address</string>
+    <string name="no_server_set">Enter the address of the computer running the RipenSense AI Flask server (e.g. http://192.168.1.42:5000) to get started.</string>
+    <string name="server_dialog_title">RipenSense server address</string>
+    <string name="server_dialog_hint">http://192.168.1.42:5000</string>
+    <string name="server_dialog_help">Run \'python app/app.py\' on your computer, then find its local IP address (Wi-Fi settings, or \'ipconfig\'/\'ifconfig\'). Your phone and that computer must be on the same Wi-Fi network.</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="camera_permission_denied">Camera permission was denied — the \'Scan with Camera\' tab won\'t work until you allow it in Android Settings › Apps › RipenSense AI › Permissions.</string>
+    <string name="load_error">Couldn\'t reach the server at this address. Check that the Flask app is running and that your phone is on the same Wi-Fi network, then tap Reload.</string>
+</resources>

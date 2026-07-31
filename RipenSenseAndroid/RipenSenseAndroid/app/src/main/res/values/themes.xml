@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.RipenSense" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ripen_dark_green</item>
+        <item name="colorPrimaryVariant">@color/ripen_dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/ripen_green</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/ripen_dark_green</item>
+    </style>
+</resources>

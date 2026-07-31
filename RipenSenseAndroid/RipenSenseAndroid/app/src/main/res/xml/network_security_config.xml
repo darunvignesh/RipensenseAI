@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Your Flask dev server runs over plain http:// on your local network (no
+  TLS certificate), so cleartext traffic must be explicitly allowed here —
+  Android blocks it by default since API 28. This is fine for a local/dev
+  setup on your own Wi-Fi. If you later deploy the Flask app behind https://,
+  you can remove this file and drop android:usesCleartextTraffic from the
+  manifest for a more locked-down build.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
